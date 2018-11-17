@@ -1,5 +1,4 @@
 vendor/
 app/db.php
-src/
 src/Controller/PortfolioController.php
 
