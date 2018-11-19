@@ -1,4 +1,6 @@
 vendor/
+node_modules/
 app/db.php
 src/Controller/PortfolioController.php
+*.log
 

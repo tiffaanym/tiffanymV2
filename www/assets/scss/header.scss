@@ -1,0 +1,105 @@
+/*** HEADER SECTION ***/
+
+.home {
+  background-color: #292929;
+}
+
+.heading{
+  font-size: 22px;
+  color: #9725cc;
+}
+
+svg {
+  margin-top: 45vh;
+  transform: translateY(-50%);
+}
+
+.animation-name {
+  margin: 0 auto;
+  width: 600px;
+}
+
+@keyframes writing {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes apparition {
+  0%   { opacity: 0; }
+  100% { opacity: 1; fill: #9db032; }
+}
+
+#iffanymarie_path {
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: white;
+  stroke-width: 12;
+  animation: writing 12s ease-in-out forwards;
+}
+
+#t_path {
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  stroke-linecap: round;
+  stroke: white;
+  stroke-width: 12;
+  animation: writing 12s linear forwards 8s;
+}
+
+#point1_path {
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  stroke-linecap: round;
+  stroke: white;
+  stroke-width: 12;
+  animation: writing 12s linear forwards 8.7s;
+}
+#point2_path {
+  stroke-dasharray: 5000;
+  stroke-dashoffset: 5000;
+  stroke-linecap: round;
+  stroke: white;
+  stroke-width: 12;
+  animation: writing 12s linear forwards 9s;
+}
+
+#maurath{
+  animation: apparition 1s linear forwards 9s;
+}
+
+
+
+
+
+
+
+
+
+
+
+.mobile-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  right: 22px;
+  top: 0;
+  width: 30px;
+}
+
+@media only screen and (max-width: 766px) {
+  .mobile-toggle {
+    display: block;
+  }
+}
+
+.mobile-toggle span {
+  width: 30px;
+  height: 4px;
+  margin-bottom: 6px;
+  background: #000000;
+  display: block;
+}

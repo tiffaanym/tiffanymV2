@@ -1,0 +1,27 @@
+{
+  "name": "tiffanym_v2",
+  "version": "1.0.0",
+  "description": "V2 site personnel",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jquery": "^1.9.1",
+    "vegas": "^2.4.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch www/assets/scss/styles.scss -o www/assets/css/",
+    "browserify": "browserify --watch app.js -o www/assets/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiffaanym/tiffanymV2.git"
+  },
+  "author": "Tiffany Maurath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiffaanym/tiffanymV2/issues"
+  },
+  "homepage": "https://github.com/tiffaanym/tiffanymV2#readme"
+}

@@ -1,0 +1,17 @@
+/*** Konamiiiii Chi The Cat ***/
+
+#popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -150px;
+  background: white;
+  border-style: solid;
+  border-width: 10px;
+  border-color: white;
+  width: 320px;
+  height: 240px;
+  box-shadow: 0 0 125px 0 #009e87;
+}

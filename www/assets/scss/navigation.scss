@@ -1,0 +1,133 @@
+/*** NAVIGATION ***/
+
+#tabs {
+  display: flex;
+  position:fixed;
+  width:50%;
+  bottom:0;
+}
+.tabs {
+  width:20%;
+  text-align:center;
+  height:45px;
+  line-height:45px;
+  float:left;
+  margin:0;
+  padding-bottom:.5em;
+  font-weight:bold;
+  font-size:12px;
+}
+
+.tabs:hover {
+  color: #9725cc !important;
+}
+
+.divider {
+  height: 45px;
+  line-height: 45px;
+}
+
+.lbl {
+  height:35px; width:100%;
+  cursor:pointer;
+  text-align:center;
+}
+
+label {
+  margin:0;
+  padding:0;
+}
+
+input[type="radio"] {
+  display:none;
+}
+
+
+/* ONGLET ACCUEIL */
+#radio1:checked ~ #tabs .one {
+  color: white !important;
+}
+#radio1:checked ~ #tabs .tabs {
+  color: #9db032;
+}
+#radio1:checked ~ #tabs .divider > p {
+  color: #9db032;
+}
+
+/* ONGLET A PROPOS */
+#radio2:checked ~ #tabs .two {
+  color: #292929 !important;
+}
+#radio2:checked ~ #tabs .tabs {
+  color: white;
+}
+#radio2:checked ~ #tabs .divider > p {
+  color: white;
+}
+
+/* ONGLET COMPETENCES */
+#radio3:checked ~ #tabs .three {
+  color: #9db032 !important;
+}
+#radio3:checked ~ #tabs .tabs {
+  color: white;
+}
+#radio3:checked ~ #tabs .divider > p {
+  color: white;
+}
+
+/* ONGLET PORTFOLIO */
+#radio4:checked ~ #tabs .four {
+  color: #292929 !important;
+}
+#radio4:checked ~ #tabs .tabs {
+  color: #9db032;
+}
+#radio4:checked ~ #tabs .divider > p {
+  color: #9db032;
+}
+
+/* ONGLET CONTACT */
+#radio5:checked ~ #tabs .five {
+  color: #292929 !important;
+}
+#radio5:checked ~ #tabs .tabs {
+  color: white;
+}
+#radio5:checked ~ #tabs .divider > p {
+  color: white;
+}
+
+#wrapper{
+  width:100%;
+  transition:all .6s ease-in-out;
+  padding:0; margin:0;
+}
+
+/* AFFICHAGE ACCUEIL */
+#radio1:checked ~ #wrapper {
+}
+/* AFFICHAGE A PROPOS */
+#radio2:checked ~ #wrapper {
+  transform:translateY(-20%);
+}
+/* AFFICHAGE COMPETENCES */
+#radio3:checked ~ #wrapper {
+  transform:translateY(-40%);
+}
+/* AFFICHAGE PORTFOLIO */
+#radio4:checked ~ #wrapper {
+  transform:translateY(-60%);
+}
+/* AFFICHAGE CONTACT */
+#radio5:checked ~ #wrapper {
+  transform:translateY(-80%);
+}
+
+@media all and (max-width:545px){
+  .tabs{
+    float:none;
+    display:block;
+    width:100%;
+  }
+}
