@@ -4,15 +4,23 @@
   "description": "V2 site personnel",
   "main": "index.js",
   "dependencies": {
+    "browserify": "^5.10.0",
+    "cssify": "^1.0.3",
     "express": "^4.16.4",
     "jquery": "^1.9.1",
+    "popper.js": "^1.14.5",
     "vegas": "^2.4.4"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass --watch www/assets/scss/styles.scss -o www/assets/css/",
-    "browserify": "browserify --watch app.js -o www/assets/js/bundle.js"
+    "browserify": "browserify -t cssify app.js > www/assets/js/bundle.js"
+  },
+  "browserify": {
+    "transform": [
+      "cssify"
+    ]
   },
   "repository": {
     "type": "git",

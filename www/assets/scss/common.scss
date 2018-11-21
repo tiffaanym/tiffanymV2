@@ -1,5 +1,12 @@
 /*** COMMON ***/
 
+body, html {
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  font-family: 'cocomatlight', sans-serif;
+}
+
 .content {
   height: 100vh;
   width: 100%;
@@ -23,10 +30,14 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300;
-  font-family: 'Armata', sans-serif;
+  font-family: 'cocomatlight', sans-serif;
+  text-transform: uppercase;
 }
 
 h1 {
+  position: relative;
+  transform: translateY(-50%);
+  top: 50%;
   font-size: 4.0rem;
   line-height: 1.2;
   letter-spacing: -.1rem;

@@ -2,6 +2,70 @@ $purple: #9725cc;
 $lime : #9db032;
 $darkgrey: #292929;
 
+@font-face {
+  font-family: 'cocomatultralight';
+  src: url('../fonts/cocomat_ultralight-trial-webfont.eot');
+  src: url('../fonts/cocomat_ultralight-trial-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cocomat_ultralight-trial-webfont.woff2') format('woff2'),
+  url('../fonts/cocomat_ultralight-trial-webfont.woff') format('woff'),
+  url('../fonts/cocomat_ultralight-trial-webfont.ttf') format('truetype'),
+  url('../fonts/cocomat_ultralight-trial-webfont.svg#cocomatultralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'cocomatregular';
+  src: url('../fonts/cocomat_regular-trial-webfont.eot');
+  src: url('../fonts/cocomat_regular-trial-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cocomat_regular-trial-webfont.woff2') format('woff2'),
+  url('../fonts/cocomat_regular-trial-webfont.woff') format('woff'),
+  url('../fonts/cocomat_regular-trial-webfont.ttf') format('truetype'),
+  url('../fonts/cocomat_regular-trial-webfont.svg#cocomatregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'cocomatlight';
+  src: url('../fonts/cocomat_light-webfont.eot');
+  src: url('../fonts/cocomat_light-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cocomat_light-webfont.woff2') format('woff2'),
+  url('../fonts/cocomat_light-webfont.woff') format('woff'),
+  url('../fonts/cocomat_light-webfont.ttf') format('truetype'),
+  url('../fonts/cocomat_light-webfont.svg#cocomatlight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cocomatheavy';
+  src: url('../fonts/cocomat_heavy-webfont.eot');
+  src: url('../fonts/cocomat_heavy-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cocomat_heavy-webfont.woff2') format('woff2'),
+  url('../fonts/cocomat_heavy-webfont.woff') format('woff'),
+  url('../fonts/cocomat_heavy-webfont.ttf') format('truetype'),
+  url('../fonts/cocomat_heavy-webfont.svg#cocomatheavy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'cocomatbold';
+  src: url('../fonts/cocomat_bold-trial-webfont.eot');
+  src: url('../fonts/cocomat_bold-trial-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/cocomat_bold-trial-webfont.woff2') format('woff2'),
+  url('../fonts/cocomat_bold-trial-webfont.woff') format('woff'),
+  url('../fonts/cocomat_bold-trial-webfont.ttf') format('truetype'),
+  url('../fonts/cocomat_bold-trial-webfont.svg#cocomatbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 
 @import "konami.scss";
 @import "common.scss";
