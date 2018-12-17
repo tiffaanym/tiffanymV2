@@ -3,6 +3,6 @@ node_modules/
 app/db.php
 src/Controller/PortfolioController.php
 *.log
-.idea/workspace.xml
+.idea/
 
 

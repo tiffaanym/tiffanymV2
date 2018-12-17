@@ -3,19 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7226d792-9866-46e7-9b65-dd138e302c66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/about.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/layout.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/layout.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/skills.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/skills.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/js/animation.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/assets/js/animation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/scss/about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/assets/scss/about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/assets/scss/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/scss/contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/assets/scss/contact.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/scss/navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/assets/scss/navigation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/scss/skills.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/assets/scss/skills.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/assets/scss/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/www/assets/scss/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +35,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="59" />
-          <entry key="gitignore" value="2" />
+          <entry key="gitignore" value="3" />
           <entry key="js" value="36" />
           <entry key="json" value="16" />
           <entry key="lock" value="1" />
@@ -67,7 +54,7 @@
           <entry key="JavaScript" value="36" />
           <entry key="Markdown" value="1" />
           <entry key="PHP" value="6" />
-          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="SCSS" value="70" />
           <entry key="Sass" value="1" />
           <entry key="Twig" value="45" />
@@ -102,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -211,35 +198,6 @@
               <item name="tiffanym_v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="tiffanym_v2" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tiffanym_v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiffanym_v2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiffanym_v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiffanym_v2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="View" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiffanym_v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiffanym_v2" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiffanym_v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiffanym_v2" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiffanym_v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiffanym_v2" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -311,18 +269,18 @@
       <workItem from="1544983971321" duration="1839000" />
       <workItem from="1545072722429" duration="3325000" />
       <workItem from="1545076382304" duration="2908000" />
-      <workItem from="1545080366257" duration="19000" />
+      <workItem from="1545080366257" duration="301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67977000" />
+    <option name="totallyTimeSpent" value="68259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="134" y="35" width="2602" height="1789" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25377885" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25377885" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -336,7 +294,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21433267" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.39513478" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -588,7 +546,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
