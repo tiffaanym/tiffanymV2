@@ -94,7 +94,7 @@ h6 {
   h5 {
     font-size: 2.4rem;
   }
-
+purple
   h6 {
     font-size: 1.5rem;
   }
@@ -108,35 +108,11 @@ p {
 /* Links
 ********************************************************************* */
 a {
-  color: #009e87;
+  color: $lime;
 }
 
 a:hover {
-  color: #009e87;
-}
-
-/* Lists
-********************************************************************* */
-ul {
-  list-style: circle inside;
-}
-
-ol {
-  list-style: decimal inside;
-}
-
-ol, ul {
-  padding-left: 0;
-  margin-top: 0;
-}
-
-ul ul, ul ol, ol ol, ol ul {
-  margin: 1.5rem 0 1.5rem 3rem;
-  font-size: 90%;
-}
-
-li {
-  margin-bottom: 1rem;
+  color: $purple;
 }
 
 /* Spacing

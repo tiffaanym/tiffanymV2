@@ -77,3 +77,59 @@ $darkgrey: #292929;
 @import "contact.scss";
 @import "footer.scss";
 @import "konami.scss";
+
+
+
+
+@font-face {
+  font-family: 'Icon-tiffany';
+  src:  url('../fonts/Icon-tiffany.eot?nttssl');
+  src:  url('../fonts/Icon-tiffany.eot?nttssl#iefix') format('embedded-opentype'),
+  url('../fonts/Icon-tiffany.ttf?nttssl') format('truetype'),
+  url('../fonts/Icon-tiffany.woff?nttssl') format('woff'),
+  url('../fonts/Icon-tiffany.svg?nttssl#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Icon-tiffany' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-bottom:before {
+  content: "\e901";
+}
+.icon-top:before {
+  content: "\e902";
+}
+.icon-paperclip:before {
+  content: "\e903";
+}
+.icon-right:before {
+  content: "\e904";
+}
+.icon-left:before {
+  content: "\e905";
+}
+.icon-checked:before {
+  content: "\e900";
+}
+.icon-github:before {
+  content: "\e906";
+}
+.icon-codepen:before {
+  content: "\e908";
+}
+.icon-linkedin:before {
+  content: "\e907";
+}

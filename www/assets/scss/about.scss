@@ -10,8 +10,16 @@ section.about {
   .about-right {
     background-color: white;
 
-    p span {
-      font-family: 'cocomatregular', sans-serif;
+    .about-right-txt {
+      padding: 70px 80px;
+      font-size: 16px;
+
+      p span {
+        font-family: 'cocomatregular', sans-serif;
+        font-size: 18px;
+        color: $purple;
+      }
+
     }
   }
 }

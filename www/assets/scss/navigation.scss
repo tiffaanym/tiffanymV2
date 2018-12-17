@@ -48,10 +48,10 @@ input[type="radio"] {
   color: white !important;
 }
 #radio1:checked ~ #tabs .tabs {
-  color: #9db032;
+  color: $lime;
 }
 #radio1:checked ~ #tabs .divider > p {
-  color: #9db032;
+  color: $lime;
 }
 
 /* ONGLET A PROPOS */
@@ -67,7 +67,7 @@ input[type="radio"] {
 
 /* ONGLET COMPETENCES */
 #radio3:checked ~ #tabs .three {
-  color: #9db032 !important;
+  color: $lime !important;
 }
 #radio3:checked ~ #tabs .tabs {
   color: white;
@@ -89,13 +89,13 @@ input[type="radio"] {
 
 /* ONGLET CONTACT */
 #radio5:checked ~ #tabs .five {
-  color: #292929 !important;
+  color: white !important;
 }
 #radio5:checked ~ #tabs .tabs {
-  color: white;
+  color: $lime;
 }
 #radio5:checked ~ #tabs .divider > p {
-  color: white;
+  color: $lime;
 }
 
 #wrapper{

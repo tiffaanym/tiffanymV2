@@ -24,51 +24,30 @@ setTimeout(function(){
 }, 9500);
 
 
-/*----------------------------------------------------
- Navigation
-
-
-$(window).scroll(function () {
-
-    if ($(window).scrollTop() > 200) {
-        $('.main_nav').addClass('sticky');
-    } else {
-        $('.main_nav').removeClass('sticky');
-    }
-});
-
-// Mobile Navigation
-$('.mobile-toggle').click(function () {
-    if ($('.main_nav').hasClass('open-nav')) {
-        $('.main_nav').removeClass('open-nav');
-    } else {
-        $('.main_nav').addClass('open-nav');
-    }
-});
-
-$('.main_nav li a').click(function () {
-    if ($('.main_nav').hasClass('open-nav')) {
-        $('.navigation').removeClass('open-nav');
-        $('.main_nav').removeClass('open-nav');
-    }
-});
-
-
-
 /*----------------------------------------------------*/
 /* Portfolio
 ------------------------------------------------------ */
 
-$('.gallery-item').hover(function () {
-    $(this).find('p').stop().animate({
-        opacity: '1',
-        marginLeft: '220px'
-    }, 300);
-}, function () {
-    $(this).find('p').stop().animate({
-        opacity: '0',
-        marginLeft: '0px'
-    }, 100);
+$(function() {
+    $('.portolio-right').vegas({
+        slides: [
+            { src: 'assets/images/jbm.png' },
+            { src: 'assets/images/aas.png' },
+            { src: '/img/jbm.jpg' },
+            { src: '/img/cdj.jpg' }
+        ],
+        overlay: '/assets/images/01.png',
+
+        init: function (globalSettings) {
+            console.log("Init");
+        },
+        play: function (index, slideSettings) {
+            console.log("Play");
+        },
+        walk: function (index, slideSettings) {
+            console.log("Slide index " + index + " image " + slideSettings.src);
+        }
+    });
 });
 
 /*----------------------------------------------------*/
@@ -86,33 +65,3 @@ if (window.addEventListener) {
         }
     }, true);
 }
-
-
-
-
-
-
-
-
-
-
-
-$(function() {
-$('.portolio-right').vegas({
-    slides: [
-        { src: 'assets/images/jbm.png' },
-        { src: 'assets/images/lapin.png' },
-        { src: '/img/slide3.jpg' },
-        { src: '/img/slide4.jpg' }
-    ],
-    init: function (globalSettings) {
-        console.log("Init");
-    },
-    play: function (index, slideSettings) {
-        console.log("Play");
-    },
-    walk: function (index, slideSettings) {
-        console.log("Slide index " + index + " image " + slideSettings.src);
-    }
-});
-});

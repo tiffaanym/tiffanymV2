@@ -1,7 +1,7 @@
 <div class="demi-content contact-left"><h1>Contact</h1></div>
 
 <div class="demi-content contact-right">
-
+    <div class="contact-right-txt">
         {% if error %}
             <div class="alert alert-danger">
                 <p>{{ error }}</p>
@@ -10,36 +10,52 @@
 
         <form id="formulaire" action="/sendMail" method="POST" name="contact">
 
-            <div class="row">
-                <div class="col-md-6">
+            <div class="row-1">
+                <div class="contact-item">
                     <label for="Nom">Nom</label>
                     <input class="u-full-width form-control" type="text" name="nomMail" id="nomMail" required>
                 </div>
-                <div class="col-md-6">
+                <div class="contact-item">
                     <label for="Email">Email</label>
                     <input class="u-full-width form-control" type="email" name="adresseMail" id="adresseMail" required>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="contact-item">
                     <label for="Objet">Objet</label>
                     <input class="u-full-width form-control" type="text" name="objetMail" id="objetMail" required>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12">
+                <div class="contact-item">
                     <label for="Message">Message</label>
-                    <textarea class="u-full-width form-control" type="text" name="messageMail"
+                    <textarea placeholder="Ecrivez votre message ici..." class="u-full-width form-control" type="text"
+                              name="messageMail"
                               id="messageMail" required></textarea>
                 </div>
             </div>
             <br>
             <div class="row">
-                <div class="col-xs-12 col-md-12">
-                    <input class="gd u-full-width" id="envoyer" name="submit" type="submit" value="Envoyer"/>
+                <div class="contact-item">
+                    <input class="btn-send" id="envoyer" name="submit" type="submit" value="Envoyer"/>
                 </div>
             </div>
-
         </form>
 
+        <div class="container">
+            <section class="color-1">
+                <nav class="effect">
+                    <a href="https://github.com/tiffaanym" target="_blank"><i class="icon-github"></i></a>
+                </nav>
+                <nav class="effect">
+                    <a href="https://codepen.io/tiffanym/#" target="_blank"><i class="icon-codepen"></i></a>
+                </nav>
+                <nav class="effect">
+                    <a href="https://www.linkedin.com/in/tiffany-maurath-9728aa15b/" target="_blank"><i
+                                class="icon-linkedin"></i></a>
+                </nav>
+            </section>
+        </div>
+
+    </div>
 </div>
